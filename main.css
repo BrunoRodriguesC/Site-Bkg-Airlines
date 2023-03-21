@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    cursor: pointer;
+}
+
+#cabecalho .nav .nav-link.active, .navbar-toggler {
+    background-color: #fff;
+    color: #4186e1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-viagens .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: sans-serif;
+}
+
+#sobre-a-companhia, #Destinos, footer {
+    background-color: rgba(216, 216, 216, 0.252);
+}
+
+.text-colored {
+    color: #335785;
+}
+
+.navbar, .nav-viagens .nav-link.active,
+#fale-conosco button {
+    background-color: #072956ea;
+    color: #fff;
+}
+
+.nav-viagens .nav-link:hover {
+    color: #4186e1;
+}
+
+.nav-viagens {
+    padding-bottom: 10px;
+    border-bottom: solid 2px black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    margin-left: 14%;
+    border-radius: 0  0 5% 5%;
+    width: 75%;
+}
+
+.carousel-item img {
+    height: 700px;
+    width: 100%;
+}
+
+.tab-content img {
+    height: 200px;
+}
+
+.banner {
+    box-shadow: 0 10px 25px 0 black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.tamanho_img {
+    height: 200px;
+}
+
+.banner:hover {
+    box-shadow: 0 10px 35px 0 black;
+    height: 500px;
+    width: 350px;
+}
+
+.tab-pane .col-md-3 {
+    margin: 3px;
+    padding: 0;
+    border: solid 2px rgb(40, 40, 128);
+}
+
+footer img {
+    height: 100px;
+    width: 120px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px
+    }
+}
